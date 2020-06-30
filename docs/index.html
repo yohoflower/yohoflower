@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>网站主页</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <style>
+        body {
+            background-color: #75abdd;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        #left img{
+            margin: 10px;
+            width: 40%;
+            height: 40%;
+        }
+        #right{
+            border-left: 1px solid #ccc;
+            margin-left: 0;
+            padding-left: 50px;
+        }
+        .projects img{
+            width: 65px;
+            height: 65px;
+        }
+        .projects span{
+            font-size: 28px;
+        }
+        @media (max-width: 768px) {
+            #left img{
+                margin: 10px;
+            }
+            #right{
+                border-top: 1px solid #ccc;
+                margin-top: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1><strong>Yohoflower</strong>
+            <small> personal website</small>
+        </h1>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-6 " id="left">
+            <h2>联系方式：</h2>
+            <address><h3>邮箱：<a href="mailto:3109108399@qq.com" target="_blank">3109108399@qq.com</a></h3></address>
+            <img src="home/images/myqq.png" class="img-rounded" >
+            <img src="home/images/myweixin.png" class="img-rounded">
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-5 col-md-offset-1 projects" id="right">
+            <h2>我的项目：</h2>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/test4/" target="_blank"><span>某公司网站前端</span></a><br>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/登录框/" target="_blank"><span>注册-登录模块</span></a><br>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/test3/" target="_blank"><span>浏览器简介</span></a><br>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/test2/" target="_blank"><span>某管理系统</span></a><br>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/relax/" target="_blank"><span>Relax(手写布局)</span></a><br>
+            <img src="home/images/jiantou.png">
+            <a href="http://yohoflower.github.io/demo/lean/" target="_blank"><span>LEAN(手写布局)</span></a>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
